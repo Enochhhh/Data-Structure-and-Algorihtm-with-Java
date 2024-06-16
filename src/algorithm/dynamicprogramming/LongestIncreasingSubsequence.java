@@ -4,6 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Description Problem: Given an integer sequence Aseq consisting of n elements. A subsequence of Aseq is a way of selecting from Aseq a number of
+ * elements that maintain the same order. Find the monotically increasing subsequence with the largest length.
+ * 
+ * Example: The longest monotically increasing subsequence of Aseq = (5, 2, 3, 4, 9, 10, 5, 6, 7, 8) is (2, 3, 4, 5, 6, 7, 8)
+ * 
+ * @author Son Phan
+ *
+ */
 public class LongestIncreasingSubsequence {
 
 	private List<Integer> sequence;
